@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A1 Quiz</title>
+    <link rel="stylesheet" href="../static/b1.css">
+</head>
+<body>
+    <h1>A1 English Quiz</h1>
+    <form method="POST">
+        {% for s in savollar %}
+            <div class="savol">
+                <p><strong>{{ loop.index }}. {{ s[1] }}</strong></p>
+                <label><input type="radio" name="savol_{{ s[0] }}" value="0"> {{ s[2] }}</label><br>
+                <label><input type="radio" name="savol_{{ s[0] }}" value="1"> {{ s[3] }}</label><br>
+                <label><input type="radio" name="savol_{{ s[0] }}" value="2"> {{ s[4] }}</label><br>
+                <label><input type="radio" name="savol_{{ s[0] }}" value="3"> {{ s[5] }}</label><br>
+            </div>
+            <hr>
+        {% endfor %}
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

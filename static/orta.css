@@ -1,0 +1,60 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.test-quti {
+    background-color: white;
+    padding: 30px;
+    margin-top: 60px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+.sarlavha {
+    text-align: center;
+    color: #2d2d8a;
+    margin-bottom: 20px;
+}
+
+.savol-matni {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.variantlar-quti {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.variant {
+    background-color: #f0f0ff;
+    border: 1px solid #d0d0f0;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.variant:hover {
+    background-color: #dfe3ff;
+}
+
+.natija {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: #0a8f00;
+}

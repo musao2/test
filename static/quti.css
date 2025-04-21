@@ -1,0 +1,177 @@
+*,
+html {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #f2f2f2; */
+    border-radius: 12px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+body {
+    background-color: burlywood;
+}
+
+
+
+/* Telefon ekranlariga maxsus moslash */
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    .container h2 {
+        font-size: 20px;
+    }
+
+    .container p {
+        font-size: 16px;
+    }
+
+    .container button {
+        font-size: 14px;
+    }
+}
+
+
+
+@keyframes colorChange {
+    0% {
+        color: #ffd106;
+        text-shadow: 0 0 5px #00ffff;
+    }
+
+    25% {
+        color: #ffffff;
+        text-shadow: 0 0 10px #00ffcc;
+    }
+
+    50% {
+        color: #1f2222;
+        text-shadow: 0 0 15px #ffffff;
+    }
+
+    75% {
+        color: #00ffcc;
+        text-shadow: 0 0 10px #00ffcc;
+    }
+
+    100% {
+        color: #ffffff;
+        text-shadow: 0 0 5px #00ffff;
+    }
+}
+
+.start-button {
+    font-size: 15px;
+    font-weight: bold;
+    /* text-align: center; */
+    margin: 25px 10px 15px 35px;
+    
+    animation: colorChange 30s infinite ease-in-out;
+}
+    
+.bobo-quti {
+    background-color: aqua;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    /* display: flex; */
+
+}
+
+.imgliz {
+    width: 250px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px 25px 25px;
+    border: none;
+}
+.it{
+    width: 220px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px 25px 25px;
+    border: none;
+    border-radius: 15px;
+}
+
+.matn {
+    padding: 10px 25px 25px 25px;
+
+}
+
+.a-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    /* background-color: #4CAF50; */
+    color: white;
+    border: none;
+    /* padding: 12px 24px; */
+    font-size: 14px;
+    /* font-weight: 500; */
+    /* border-radius: 10px; */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bobo-matn {
+    display: flex;
+    margin: 50px;
+    padding: 50px;
+    color: black;
+}
+
+.a-btn:hover {
+    background-color: #ffffff;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.p-matn {
+    margin: 50px;
+    display: flex;
+    padding: 50px;
+
+
+}
+
+.ora {
+    border: solid aqua 2px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.ora:hover {
+    background-color: grey;
+    cursor: grab;
+}
+
+.ota-quti {
+    /* display: flex; */
+
+}
+
+.ol {
+    display: flex;
+}

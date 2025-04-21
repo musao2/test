@@ -1,0 +1,102 @@
+/* Umumiy sahifa uslubi */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(to right, #f0f2f5, #d9e4f5);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Sarlavha */
+h1 {
+    text-align: center;
+    padding: 30px 0 10px;
+    font-size: 2rem;
+    color: #2c3e50;
+}
+
+/* Forma konteyner */
+form {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffffea;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+/* Har bir savol uchun quti */
+.savol-box {
+    margin-bottom: 25px;
+    padding: 20px;
+    border-left: 5px solid #3498db;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.savol-box:hover {
+    background-color: #eaf4ff;
+}
+
+/* Savol matni */
+.savol-box p {
+    margin-bottom: 12px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Variantlar */
+label {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.25s;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label:hover {
+    background-color: #d6ecff;
+    border-color: #a4d4ff;
+}
+
+/* Submit tugmasi */
+button[type="submit"] {
+    display: block;
+    margin: 40px auto 0;
+    padding: 14px 36px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #2b80bd;
+}
+
+/* Qayta urinish havolasi */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

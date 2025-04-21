@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fef9f1;
+    margin: 0;
+    padding: 30px;
+}
+
+.savol-qutisi {
+    max-width: 650px;
+    background-color: #fff8e1;
+    padding: 30px;
+    margin: auto;
+    border-radius: 14px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.savol-matni {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4b2e0d;
+}
+
+.variantlar {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.variant {
+    background-color: #ffe082;
+    border: 1px solid #ffca28;
+    border-radius: 10px;
+    padding: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.variant:hover {
+    background-color: #ffeb99;
+}
+
+.natija {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #2e7d32;
+    font-weight: bold;
+}

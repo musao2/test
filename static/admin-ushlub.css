@@ -1,0 +1,68 @@
+/* Umumiy */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #1f2937;
+  }
+  
+  .admin-konteyner {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Sarlavha */
+  .sarlavha-qismi {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .sarlavha {
+    font-size: 36px;
+    color: #2d3748;
+    margin-bottom: 10px;
+  }
+  
+  .kichik-matn {
+    font-size: 16px;
+    color: #6b7280;
+  }
+  
+  /* Bolimlar */
+  .qism {
+    margin-bottom: 30px;
+  }
+  
+  .bolim-sarlavhasi {
+    font-size: 24px;
+    color: #1e40af;
+    margin-bottom: 15px;
+  }
+  
+  .matn {
+    font-size: 18px;
+    color: #374151;
+    line-height: 1.6;
+  }
+  
+  /* Royxat */
+  .royxat {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 17px;
+    color: #374151;
+  }
+  
+  /* Pastgi qism */
+  .pastgi-qism {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #9ca3af;
+  }
+  

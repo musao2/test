@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>B2 Quiz</title>
+  <link rel="stylesheet" href="../static/b2.css">
+</head>
+
+<body>
+  <h1>B2 Grammar Quiz</h1>
+  <form method="POST">
+    {% for savol in savollar %}
+    <div class="savol-box">
+      <p>{{ loop.index }}. {{ savol[1] }}</p>
+      {% for i in range(2, 6) %}
+      <label>
+        <input type="radio" name="savol_{{ savol[0] }}" value="{{ i - 2 }}">
+        {{ savol[i] }}
+      </label><br>
+      {% endfor %}
+    </div>
+    {% endfor %}
+    <button type="submit">Natijani ko‘rish</button>
+  </form>
+</body>
+
+</html>

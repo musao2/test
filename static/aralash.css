@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    padding: 20px;
+}
+
+.savol-konteyner {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.savol-matni {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #1f2937;
+}
+
+.variantlar {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.variant {
+    padding: 12px;
+    background-color: #e0f2fe;
+    border: 1px solid #0284c7;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.variant:hover {
+    background-color: #bae6fd;
+}
+
+.natija {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #16a34a;
+}
